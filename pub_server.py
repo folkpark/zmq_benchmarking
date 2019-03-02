@@ -8,7 +8,7 @@ socket.bind("tcp://*:5556")
 # Sleep a bit of time until the connection is properly established,
 # otherwise some messages may be lost.
 # http://stackoverflow.com/questions/7470472/lost-messages-on-zeromq-pub-sub
-time.sleep(1)
+time.sleep(5)
 
 for i in range(100):
     message = "foo {}".format(i)
