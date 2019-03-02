@@ -4,9 +4,6 @@ import sys
 import time
 
 port = "5556"
-if len(sys.argv) > 1:
-    port =  sys.argv[1]
-    int(port)
 
 context = zmq.Context()
 socket = context.socket(zmq.PUB)
@@ -14,6 +11,6 @@ socket.bind("tcp://*:%s" % port)
 
 while True:
     topic = random.randrange(9999,10005)
-    messagedata = "Hello World on Topic: %s" %topic
+    messagedata = (b"Hello World on Topic: %s")
     socket.send(messagedata)
     time.sleep(1)
