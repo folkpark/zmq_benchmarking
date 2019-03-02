@@ -3,8 +3,8 @@ import sys
 
 def main():
     port = 5000
-    if len(sys.argv) == 0:
-        port = sys.argv[0]
+    if len(sys.argv) == 1:
+        port = sys.argv[1]
         print("Setting port number to %s"%port)
 
     context = zmq.Context()
