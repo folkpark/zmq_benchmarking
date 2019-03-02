@@ -12,6 +12,6 @@ time.sleep(1)
 
 for i in range(100):
     message = "foo {}".format(i)
-    print(message)
+    print("Sending a :%s"%message)
     socket.send_string(message)
     time.sleep(1)
