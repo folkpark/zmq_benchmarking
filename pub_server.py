@@ -3,7 +3,7 @@ import time
 
 context = zmq.Context()
 socket = context.socket(zmq.PUB)
-socket.connect("tcp://127.0.0.1:5556")
+socket.connect("tcp://0.0.0.0:5556")
 
 # Sleep a bit of time until the connection is properly established,
 # otherwise some messages may be lost.
