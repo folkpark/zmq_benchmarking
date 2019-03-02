@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f48a5d-0f40-438c-b81d-df239dd2f1fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Part2/pub_server.py" afterPath="$PROJECT_DIR$/Part2/pub_server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Part2/sub_client.py" afterPath="$PROJECT_DIR$/Part2/sub_client.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="sub_client.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Part2/sub_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="144">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -48,8 +48,8 @@
       <list>
         <option value="$PROJECT_DIR$/sub_client.py" />
         <option value="$PROJECT_DIR$/pub_server.py" />
-        <option value="$PROJECT_DIR$/Part2/sub_client.py" />
         <option value="$PROJECT_DIR$/Part2/pub_server.py" />
+        <option value="$PROJECT_DIR$/Part2/sub_client.py" />
       </list>
     </option>
   </component>
@@ -309,8 +309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part2/sub_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="144">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

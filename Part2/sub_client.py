@@ -3,8 +3,8 @@ import sys
 
 def main():
     port = 5000
-    if len(sys.argv) == 2:
-        port = sys.argv[2]
+    if len(sys.argv) == 1:
+        port = sys.argv[1]
     context = zmq.Context()
     socket = context.socket(zmq.SUB)
     # accept all topics (prefixed) - default is none
